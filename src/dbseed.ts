@@ -6,9 +6,7 @@ async function main() {
 	console.log('🚀  Server ready')
 
 	const url = MLAB_URL!
-
 	const dbName = MLAB_DATABASE!
-
 	const client = new MongoClient(url, {
 		// useUnifiedTopology: true,
 		// useNewUrlParser: true,
@@ -16,11 +14,8 @@ async function main() {
 
 	try {
 		await client.connect()
-
 		console.log('🌱  Database seeder is running')
-
 		const db = client.db(dbName)
-
 		const users = [
 			{
 				_id: 'ffbdd890-f8bd-11e9-9806-8b914d623ae9',
@@ -102,7 +97,7 @@ async function main() {
 					}
 				},
 				{ upsert: true },
-				function(err, res) {}
+				function (err, res) { }
 			)
 		})
 

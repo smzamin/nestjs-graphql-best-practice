@@ -2,16 +2,6 @@
 
 > ### NestJS (Express + Typeorm) codebase containing real world examples (CRUD, auth, advanced patterns, etc).
 
-[![Build Status](https://travis-ci.org/chnirt/nestjs-graphql-best-practice.svg?branch=cicd)](https://travis-ci.org/chnirt/nestjs-graphql-best-practice)
-[![CircleCI](https://circleci.com/gh/chnirt/nestjs-graphql-best-practice/tree/cicd.svg?style=svg)](https://circleci.com/gh/chnirt/nestjs-graphql-best-practice/tree/cicd)
-[![Known Vulnerabilities](https://snyk.io//test/github/chnirt/nestjs-graphql-best-practice/badge.svg?targetFile=package.json)](https://snyk.io//test/github/chnirt/nestjs-graphql-best-practice?targetFile=package.json)
-[![Greenkeeper badge](https://badges.greenkeeper.io/chnirt/nestjs-graphql-best-practice.svg)](https://greenkeeper.io/)
-[![Coverage Status](https://coveralls.io/repos/github/chnirt/nestjs-graphql-best-practice/badge.svg)](https://coveralls.io/github/chnirt/nestjs-graphql-best-practice)
-
-<img src="src/assets/images/project-logo.png" alt="Node.js Best Practices">
-
-## [Version 7.5.0](https://github.com/chnirt/nestjsv7.5.0.git)
-
 ## Table of Contents
 
 - [Structure](#structure)
@@ -114,14 +104,7 @@
   npm run start:hmr
 ```
 
-<a href="https://www.buymeacoffee.com/YT6K1FI" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px; border-radius: 5px; !important;" ></a>
-
 ## Node.js Best Practices
-
-<h1 align="center">
-  <img src="src/assets/images/banner-2.jpg" alt="Node.js Best Practices">
-</h1>
-
 ### 1. Project Structure Practices
 
 [✔️] 1.1 Structure your solution by components

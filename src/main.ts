@@ -1,30 +1,17 @@
-import { NestFactory } from '@nestjs/core'
-import { AppModule } from './app.module'
-import { Logger } from '@nestjs/common'
-import * as chalk from 'chalk'
-import { getConnection } from 'typeorm'
-import { express as voyagerMiddleware } from 'graphql-voyager/middleware'
-import * as compression from 'compression'
-import * as helmet from 'helmet'
-import * as bodyParser from 'body-parser'
-import * as rateLimit from 'express-rate-limit'
-import {
-	PORT,
-	NODE_ENV,
-	DOMAIN,
-	PRIMARY_COLOR,
-	END_POINT,
-	VOYAGER,
-	RATE_LIMIT_MAX
-} from '@environments'
-import { MyLogger } from '@config'
-import {
-	LoggingInterceptor,
-	TimeoutInterceptor,
-	ValidationPipe,
-	LoggerMiddleware
-} from '@common'
-import '@validations'
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+import { Logger } from '@nestjs/common';
+import * as chalk from 'chalk';
+import { getConnection } from 'typeorm';
+import { express as voyagerMiddleware } from 'graphql-voyager/middleware';
+import * as compression from 'compression';
+import * as helmet from 'helmet';
+import * as bodyParser from 'body-parser';
+import * as rateLimit from 'express-rate-limit';
+import { PORT, NODE_ENV, DOMAIN, PRIMARY_COLOR, END_POINT, VOYAGER, RATE_LIMIT_MAX } from '@environments';
+import { MyLogger } from '@config';
+import { LoggingInterceptor, TimeoutInterceptor, ValidationPipe, LoggerMiddleware } from '@common';
+import '@validations';
 
 declare const module: any
 
